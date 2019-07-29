@@ -1,0 +1,63 @@
+{
+    "authors": {
+        "name": "Gergely GYEBROSZKI",
+        "url": "https://os.mbed.com/users/gyebro/"
+    },
+    "build": {
+        "flags": [
+            "-Irospy_tutorials",
+            "-Istd_srvs",
+            "-Ipolled_camera",
+            "-Iactionlib_tutorials",
+            "-Idynamic_reconfigure",
+            "-Ivisualization_msgs",
+            "-Ibond",
+            "-Itf",
+            "-Irosgraph_msgs",
+            "-Iturtle_actionlib",
+            "-Igeometry_msgs",
+            "-Inodelet",
+            "-Istereo_msgs",
+            "-Ipcl_msgs",
+            "-Ishape_msgs",
+            "-Itrajectory_msgs",
+            "-Ilaser_assembler",
+            "-Irosserial_msgs",
+            "-Iroscpp_tutorials",
+            "-Idiagnostic_msgs",
+            "-Itopic_tools",
+            "-Iros",
+            "-Iactionlib",
+            "-Igazebo_msgs",
+            "-Iturtlesim",
+            "-Inav_msgs",
+            "-Ismach_msgs",
+            "-Itheora_image_transport",
+            "-Irosserial_arduino",
+            "-Itf2_msgs",
+            "-Iactionlib_msgs",
+            "-Icontrol_msgs",
+            "-Istd_msgs",
+            "-Irosserial_mbed",
+            "-Isensor_msgs",
+            "-Iroscpp",
+            "-Imap_msgs"
+        ]
+    },
+    "dependencies": [
+        {
+            "authors": "Sam Grove",
+            "frameworks": "mbed",
+            "name": "BufferedSerial"
+        }
+    ],
+    "description": "ROS Serial library for Mbed platforms for ROS Melodic Morenia. Check http://wiki.ros.org/rosserial_mbed/ for more information.",
+    "frameworks": "mbed",
+    "keywords": "ROS",
+    "name": "ros_lib_melodic",
+    "platforms": "*",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gyebro/ros_lib_melodic.git"
+    }
+}
