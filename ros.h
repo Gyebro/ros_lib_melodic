@@ -41,6 +41,7 @@
 namespace ros
 {
   typedef NodeHandle_<MbedHardware> NodeHandle;
+  typedef NodeHandle_<MbedHardware,25,25,1024,1024> NodeHandle1k;
 }
 
 #endif
